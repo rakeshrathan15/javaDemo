@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2878bb16-3828-412c-9125-321525e8fa1d" name="Changes" comment="Java Demo1">
+    <list default="true" id="2878bb16-3828-412c-9125-321525e8fa1d" name="Changes" comment="Java Demo2">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/CorporateAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/InheritanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/InsuranceAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/RetailAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +43,7 @@
   "keyToString": {
     "Application.BokkingTest.executor": "Run",
     "Application.CardProcessTest.executor": "Run",
+    "Application.InheritanceTest.executor": "Run",
     "Application.PrivateTest.executor": "Run",
     "Application.StudentMain.executor": "Debug",
     "Application.StudentMarksTest.executor": "Run",
@@ -58,13 +64,26 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BokkingTest">
+  <component name="RunManager" selected="Application.InheritanceTest">
     <configuration name="BokkingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rapido.BokkingTest" />
       <module name="javaDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="rapido.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InheritanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.InheritanceTest" />
+      <module name="javaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,19 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="teacherForm1.Test" />
-      <module name="javaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="teacherForm1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="constructorOverLoading.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="constructorOverLoading.Test" />
       <module name="javaDemo" />
@@ -125,19 +131,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.InheritanceTest" />
       <item itemvalue="Application.BokkingTest" />
       <item itemvalue="Application.PrivateTest" />
       <item itemvalue="Application.constructorOverLoading.Test" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.StudentMarksTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InheritanceTest" />
         <item itemvalue="Application.BokkingTest" />
         <item itemvalue="Application.PrivateTest" />
         <item itemvalue="Application.constructorOverLoading.Test" />
         <item itemvalue="Application.StudentMarksTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -189,13 +195,38 @@
       <option name="project" value="LOCAL" />
       <updated>1707551161712</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java Demo2">
+      <option name="closed" value="true" />
+      <created>1707556303942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707556303942</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Java Demo2">
+      <option name="closed" value="true" />
+      <created>1707556349315</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707556349315</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Java Demo2">
+      <option name="closed" value="true" />
+      <created>1707556456489</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707556456489</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Demo" />
     <MESSAGE value="Java Demo1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Demo1" />
+    <MESSAGE value="Java Demo2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Demo2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
