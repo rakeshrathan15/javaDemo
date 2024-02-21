@@ -1,23 +1,21 @@
 package rapido;
 
-public class BookingDetails extends  CarDetails {
-    private int otp;
-    private   String auto;
-    private   String bike;
-    private   int noOfPersons;
-    private   CarDetails CarDetails;
-    public BookingDetails(String auto, String bike, int noOfPersons,int otp,CarDetails carDeatails) {
-        super(carDeatails.getCartype(), carDeatails.getCarPrice());
+public class BookingDetails {
+
+
+    private String  auto;
+    private String bike;
+
+    private CarDetails carDetails;
+
+    private  int noOfPassengers;
+
+    public BookingDetails(String auto, String bike, CarDetails carDetails, int noOfPassengers) {
         this.auto = auto;
         this.bike = bike;
-        this.CarDetails = carDeatails;
-        this.noOfPersons = noOfPersons;
-        this.otp=otp;
+        this.carDetails = carDetails;
+        this.noOfPassengers = noOfPassengers;
     }
-    public BookingDetails(String auto, String bike, int noOfPersons,int otp) {
-        this(auto,bike,noOfPersons,otp,new CarDetails());
-    }
-
 
     public String getAuto() {
         return auto;
@@ -27,15 +25,15 @@ public class BookingDetails extends  CarDetails {
         return bike;
     }
 
-    public CarDetails getCarDeatails() {
-        return CarDetails;
+    public CarDetails getCarDetails() {
+        return carDetails;
     }
 
-    public int getNoOfPersons() {
-        return noOfPersons;
-    }
-    public int getOtp() {
-        return otp;
+    public int getNoOfPassengers() {
+
+
+
+        return noOfPassengers;
     }
 
     @Override
@@ -43,8 +41,8 @@ public class BookingDetails extends  CarDetails {
         return "BookingDetails{" +
                 "auto='" + auto + '\'' +
                 ", bike='" + bike + '\'' +
-                ", carDeatails=" + CarDetails +
-                ", noOfPersons=" + noOfPersons +
+                ", carDetails=" + carDetails +
+                ", noOfPassengers=" + noOfPassengers +
                 '}';
     }
 }
