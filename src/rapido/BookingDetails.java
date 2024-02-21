@@ -1,21 +1,23 @@
 package rapido;
 
-public class BookingDetails {
-
-
-    private String  auto;
-    private String bike;
-
-    private CarDetails carDetails;
-
-    private  int noOfPassengers;
-
-    public BookingDetails(String auto, String bike, CarDetails carDetails, int noOfPassengers) {
+public class BookingDetails extends  CarDetails {
+    private int otp;
+    private   String auto;
+    private   String bike;
+    private   int noOfPersons;
+    private   CarDetails CarDetails;
+    public BookingDetails(String auto, String bike, int noOfPersons,int otp,CarDetails carDeatails) {
+        super(carDeatails.getCartype(), carDeatails.getCarPrice());
         this.auto = auto;
         this.bike = bike;
-        this.carDetails = carDetails;
-        this.noOfPassengers = noOfPassengers;
+        this.CarDetails = carDeatails;
+        this.noOfPersons = noOfPersons;
+        this.otp=otp;
     }
+    public BookingDetails(String auto, String bike, int noOfPersons,int otp) {
+        this(auto,bike,noOfPersons,otp,new CarDetails());
+    }
+
 
     public String getAuto() {
         return auto;
@@ -25,15 +27,15 @@ public class BookingDetails {
         return bike;
     }
 
-    public CarDetails getCarDetails() {
-        return carDetails;
+    public CarDetails getCarDeatails() {
+        return CarDetails;
     }
 
-    public int getNoOfPassengers() {
-
-
-
-        return noOfPassengers;
+    public int getNoOfPersons() {
+        return noOfPersons;
+    }
+    public int getOtp() {
+        return otp;
     }
 
     @Override
@@ -41,8 +43,8 @@ public class BookingDetails {
         return "BookingDetails{" +
                 "auto='" + auto + '\'' +
                 ", bike='" + bike + '\'' +
-                ", carDetails=" + carDetails +
-                ", noOfPassengers=" + noOfPassengers +
+                ", carDeatails=" + CarDetails +
+                ", noOfPersons=" + noOfPersons +
                 '}';
     }
 }

@@ -5,10 +5,11 @@ public class InheritanceTest {
 
     public static void main(String[] args) {
 
-     //   RetailAccount account= new Account();
+        RetailAccount retailAccount = new RetailAccount("51212487",2000,true,50000);
+        // up casting
 
-        Account retailAccount = new RetailAccount("",2000,true);
 
         System.out.println(retailAccount);
+
     }
 }

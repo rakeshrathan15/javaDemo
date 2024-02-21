@@ -2,18 +2,34 @@ package inheritance;
 
 public class RetailAccount extends Account{
 
-    private int minimumBalance=100;
+    private int minimumBalance=1000;
 
-    private int limit=20;
+    private int limit;
+    public String name(){
+        return  "rakesh";
+
+    }
 
 
 
-    public RetailAccount(String accountNumber, int balance, boolean status){
+
+    public RetailAccount(String accountNumber, int balance, boolean status,int limit){
 
     super(accountNumber, balance,status);
 
+    this.limit=limit;
     }
+
+    @Override
+    public String toString() {
+        return "RetailAccount{" +"accountNumber="+ getAccountNumber() + ","+
+                "minimumBalance=" + minimumBalance +
+                ", limit=" + limit +
+                '}';
+    }
+
     public  int getMinimumBalance(){
+
         return minimumBalance;
     }
 
@@ -22,11 +38,6 @@ public class RetailAccount extends Account{
         return limit;
     }
 
-    @Override
-    public String toString() {
-        return "RetailAccount{" +
-                "minimumBalance=" + minimumBalance +
-                ", limit=" + limit +
-                '}';
-    }
+
+
 }

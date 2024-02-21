@@ -6,6 +6,7 @@ public class Account {
     private int balance;
 
     private boolean status;
+    int num = 100;
 
 
     public Account(String accountNumber, int balance, boolean status) {
@@ -26,12 +27,5 @@ public class Account {
         return status;
     }
 
-    @Override
-    public String toString() {
-        return "Account{" +
-                "accountNumber='" + accountNumber + '\'' +
-                ", balance=" + balance +
-                ", status=" + status +
-                '}';
-    }
+
 }

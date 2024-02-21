@@ -15,6 +15,10 @@ public class Shirt {
         this.payment = payment;
     }
 
+
+
+
+
     public Shirt(String size, String brand, String color) {
         this(size, brand,color,new Payment() );
     }
