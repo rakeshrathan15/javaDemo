@@ -5,8 +5,11 @@ public class Student {
     public  String name;
     public String fatherName;
 
-    public String dateOfBirth;
+    private String dateOfBirth;
 
-
-
+    public Student(String name, String fatherName, String dateOfBirth) {
+        this.name = name;
+        this.fatherName = fatherName;
+        this.dateOfBirth = dateOfBirth;
+    }
 }
