@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2878bb16-3828-412c-9125-321525e8fa1d" name="Changes" comment="interface">
-      <change afterPath="$PROJECT_DIR$/src/exception/CustomExceptionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ExceptionDemoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ExceptionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forloopdemo/SelctionSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfacelatest/ErrorCodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfacelatest/InvalidOTPException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfacelatest/InvalidRuntimeOTPException.java" afterDir="false" />
+    <list default="true" id="2878bb16-3828-412c-9125-321525e8fa1d" name="Changes" comment="Exception try catch and throws">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forloopdemo/ForDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forloopdemo/ForDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfacelatest/BankOTPValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacelatest/BankOTPValidationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfacelatest/SBIBankLoginProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacelatest/SBIBankLoginProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfacelatest/SBIBankLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacelatest/SBIBankLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfacelatest/SBILoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacelatest/SBILoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacelatest/BankLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacelatest/BankLoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709359127172</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Exception try catch and throws">
+      <option name="closed" value="true" />
+      <created>1709616137502</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709616137502</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +279,8 @@
     <MESSAGE value="Java Demo2" />
     <MESSAGE value="inheritance" />
     <MESSAGE value="interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="interface" />
+    <MESSAGE value="Exception try catch and throws" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception try catch and throws" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
