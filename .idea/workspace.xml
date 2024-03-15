@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2878bb16-3828-412c-9125-321525e8fa1d" name="Changes" comment="Exception try catch and throws">
+      <change afterPath="$PROJECT_DIR$/src/bookmyshowpractice/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bookmyshowpractice/TicketBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bookmyshowpractice/TicketBookingProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/WhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/WhileLoopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionBasics/Basics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionBasics/ExceptionBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/retryexceptiondemo/BookMyShowProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/retryexceptiondemo/BookMyShowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/retryexceptiondemo/ErrorCodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/retryexceptiondemo/ExceptionHandleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/retryexceptiondemo/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/retryexceptiondemo/SBIService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/retryexceptiondemo/TimeoutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singletondemo/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singletondemo/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfacelatest/BankLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacelatest/BankLoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -39,8 +54,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Basics.executor&quot;: &quot;Run&quot;,
     &quot;Application.BokkingTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.CardProcessTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionBasics.executor&quot;: &quot;Run&quot;,
     &quot;Application.ExceptionDemoClient.executor&quot;: &quot;Run&quot;,
     &quot;Application.ForDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.InheritanceTest.executor&quot;: &quot;Run&quot;,
@@ -56,6 +73,8 @@
     &quot;Application.Teacher.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileLoopTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.abstractcar.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.amazonApplication.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.constructorOverLoading.Test.executor&quot;: &quot;Run&quot;,
@@ -65,15 +84,55 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/My projects/bookmyShow1&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SBILoginTest">
-    <configuration name="ExceptionDemoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.ExceptionDemoClient" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionBasics.Basics" />
+      <module name="javaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionBasics.ExceptionBasics" />
+      <module name="javaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singletondemo.Test" />
+      <module name="javaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singletondemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.WhileLoop" />
       <module name="javaDemo" />
       <extension name="coverage">
         <pattern>
@@ -85,51 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="forloopdemo.ForDemo" />
+    <configuration name="WhileLoopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.WhileLoopTest" />
       <module name="javaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="forloopdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaypalPayment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.PaypalPayment" />
-      <module name="javaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SBILoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfacelatest.SBILoginTest" />
-      <module name="javaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfacelatest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelctionSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="forloopdemo.SelctionSorting" />
-      <module name="javaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="forloopdemo.*" />
+          <option name="PATTERN" value="exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +158,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ExceptionDemoClient" />
-      <item itemvalue="Application.ForDemo" />
-      <item itemvalue="Application.SelctionSorting" />
-      <item itemvalue="Application.PaypalPayment" />
-      <item itemvalue="Application.SBILoginTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.WhileLoop" />
+      <item itemvalue="Application.Basics" />
+      <item itemvalue="Application.ExceptionBasics" />
+      <item itemvalue="Application.WhileLoopTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SBILoginTest" />
-        <item itemvalue="Application.ExceptionDemoClient" />
-        <item itemvalue="Application.SelctionSorting" />
-        <item itemvalue="Application.ForDemo" />
-        <item itemvalue="Application.PaypalPayment" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ExceptionBasics" />
+        <item itemvalue="Application.WhileLoop" />
+        <item itemvalue="Application.WhileLoopTest" />
+        <item itemvalue="Application.Basics" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709616137502</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Exception try catch and throws">
+      <option name="closed" value="true" />
+      <created>1709696353937</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709696353937</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,6 +403,11 @@
           <line>16</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bookmyshowpractice/TicketBookingProcess.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/studentMarks/StudentMarksTest.java</url>
           <line>91</line>
@@ -392,6 +425,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exceptionBasics/ExceptionBasics.java</url>
+          <line>3</line>
+          <properties class="exceptionBasics.ExceptionBasics" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
