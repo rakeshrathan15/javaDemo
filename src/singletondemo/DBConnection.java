@@ -7,9 +7,8 @@ public class DBConnection {
         System.out.println("from private constructor");
     }
     public static DBConnection getInstance(){
+
         return dbConnection;
     }
-
-
 
 }
