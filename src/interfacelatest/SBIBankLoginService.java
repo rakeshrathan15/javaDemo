@@ -34,6 +34,7 @@ public class SBIBankLoginService implements BankOTPValidationService{
 
         if(this.accountNumber.equals(accountNumber)){
              otp=UUID.randomUUID().toString();
+            System.out.println(otp);
             Calendar otpExpiryCalendar=Calendar.getInstance();
             otpExpiryCalendar.add(Calendar.SECOND,60);
             System.out.println("OtpExpiryCalendar "+otpExpiryCalendar.getTime());

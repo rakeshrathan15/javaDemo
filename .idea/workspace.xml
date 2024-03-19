@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2878bb16-3828-412c-9125-321525e8fa1d" name="Changes" comment="Exception and Static">
-      <change afterPath="$PROJECT_DIR$/src/singletondemo/Static.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singletondemo/StaticBasics.java" afterDir="false" />
+    <list default="true" id="2878bb16-3828-412c-9125-321525e8fa1d" name="Changes" comment="DBConnection">
+      <change afterPath="$PROJECT_DIR$/src/threaddemopetrolsation/PetrolStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threaddemopetrolsation/SynchronizedDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threaddemopetrolsation/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/NumberCountRunnableThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/NumberCountThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/RunnableThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/ThreadDemoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singletondemo/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singletondemo/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptionBasics/ExceptionBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionBasics/ExceptionBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/InheritanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/InheritanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacelatest/BankLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacelatest/BankLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacelatest/ErrorCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacelatest/ErrorCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacelatest/SBIBankLoginProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacelatest/SBIBankLoginProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacelatest/SBIBankLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacelatest/SBIBankLoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,48 +49,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Basics.executor": "Run",
-    "Application.BokkingTest.executor": "Run",
-    "Application.CardProcessTest.executor": "Run",
-    "Application.ExceptionBasics.executor": "Run",
-    "Application.ExceptionDemoClient.executor": "Run",
-    "Application.ForDemo.executor": "Run",
-    "Application.InheritanceTest.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MethodOverrideTest.executor": "Run",
-    "Application.PaypalPayment.executor": "Run",
-    "Application.PrivateTest.executor": "Run",
-    "Application.SBILoginTest.executor": "Run",
-    "Application.SelctionSorting.executor": "Run",
-    "Application.Static.executor": "Run",
-    "Application.StaticBasics.executor": "Run",
-    "Application.StudentMain.executor": "Debug",
-    "Application.StudentMarksTest.executor": "Run",
-    "Application.StudentTest.executor": "Run",
-    "Application.Teacher.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestAccount.executor": "Run",
-    "Application.WhileLoop.executor": "Run",
-    "Application.WhileLoopTest.executor": "Run",
-    "Application.abstractcar.Test.executor": "Run",
-    "Application.amazonApplication.Test.executor": "Run",
-    "Application.constructorOverLoading.Test.executor": "Run",
-    "Application.javaBasics.Test.executor": "Run",
-    "Application.studentForm.StudentTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/My projects/bookmyShow1",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Basics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BokkingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardProcessTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionBasics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionDemoClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InheritanceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodOverrideTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PaypalPayment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrivateTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnableThreadTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SBILoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelctionSorting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Static.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticBasics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StudentMarksTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teacher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileLoopTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.abstractcar.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.amazonApplication.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.constructorOverLoading.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javaBasics.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.studentForm.StudentTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/My projects/bookmyShow1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.StaticBasics">
+}</component>
+  <component name="RunManager" selected="Application.SBILoginTest">
+    <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionBasics.Basics" />
+      <module name="javaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExceptionBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionBasics.ExceptionBasics" />
       <module name="javaDemo" />
@@ -94,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singletondemo.Static" />
+    <configuration name="InheritanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.InheritanceTest" />
       <module name="javaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singletondemo.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singletondemo.StaticBasics" />
+    <configuration name="SBILoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfacelatest.SBILoginTest" />
       <module name="javaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singletondemo.*" />
+          <option name="PATTERN" value="interfacelatest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,25 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singletondemo.Test" />
+    <configuration name="ThreadDemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.ThreadDemoTest" />
       <module name="javaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singletondemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.WhileLoop" />
-      <module name="javaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.*" />
+          <option name="PATTERN" value="threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +159,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Static" />
-      <item itemvalue="Application.StaticBasics" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.WhileLoop" />
+      <item itemvalue="Application.InheritanceTest" />
+      <item itemvalue="Application.SBILoginTest" />
+      <item itemvalue="Application.Basics" />
       <item itemvalue="Application.ExceptionBasics" />
+      <item itemvalue="Application.ThreadDemoTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticBasics" />
-        <item itemvalue="Application.Static" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SBILoginTest" />
+        <item itemvalue="Application.InheritanceTest" />
+        <item itemvalue="Application.ThreadDemoTest" />
         <item itemvalue="Application.ExceptionBasics" />
-        <item itemvalue="Application.WhileLoop" />
+        <item itemvalue="Application.Basics" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710481650402</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="DBConnection">
+      <option name="closed" value="true" />
+      <created>1710562839121</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710562839121</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +326,8 @@
     <MESSAGE value="interface" />
     <MESSAGE value="Exception try catch and throws" />
     <MESSAGE value="Exception and Static" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception and Static" />
+    <MESSAGE value="DBConnection" />
+    <option name="LAST_COMMIT_MESSAGE" value="DBConnection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

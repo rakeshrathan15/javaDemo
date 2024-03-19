@@ -11,7 +11,7 @@ public class ExceptionBasics {
 
         }catch (Exception e){
           //  e.printStackTrace();
-            System.out.println("Exception ocuured is "+e.getMessage());
+            System.out.println("Exception ocuured is "+e.getMessage()+ "please verify");
           //  throw e;
          //   throw new RuntimeException(e);
 

@@ -25,9 +25,10 @@ public class SBIBankLoginProcess implements BankLoginService{
            String otp=sbiBankLoginService.generateOTP(username);
            boolean validOtp=false;
            try {
-
+//changes
                 validOtp = sbiBankLoginService.validateOTP(UUID.randomUUID().toString());
-           }catch (InvalidOTPException invalidOTPException){
+           }
+           catch (InvalidOTPException invalidOTPException){
                System.out.println("error ocuured "+invalidOTPException);
                throw new InvalidRuntimeOTPException(invalidOTPException.getCode(),invalidOTPException.getMessage());
            }
@@ -35,6 +36,7 @@ public class SBIBankLoginProcess implements BankLoginService{
            catch (Exception e){
 
            }
+
            if(validOtp){
                System.out.println("valid otp and login is successful");
 

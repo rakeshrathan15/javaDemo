@@ -2,9 +2,10 @@ package interfacelatest;
 
 public enum ErrorCodes {
     NEOTERIC_INVALID_OTP_1000("NEO_ERR_100","Invalid OTP"),
-    NEOTERIC_EXPIRY_OTP_1001("neotech_ex_1001","expired otp");
+    NEOTERIC_EXPIRY_OTP_1001("neotech_ex_1001","expired otp"),
 
-
+    BANK_OPERATION_OTP_VALIDATION("hello","hiii"),
+    JUst_TEST("","");
     String code;
     String message;
 
@@ -21,3 +22,5 @@ public enum ErrorCodes {
         return message;
     }
 }
+
+  enum Days{};
