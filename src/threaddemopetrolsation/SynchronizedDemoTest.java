@@ -8,7 +8,9 @@ public class SynchronizedDemoTest {
 
 
         Thread bike=new Vehicle(3,"Empty","petrol",petrolStation);
-              bike.setName("Ap24AV1899");
+
+             bike.setName("Ap24AV1899");
+
 
 
     }
